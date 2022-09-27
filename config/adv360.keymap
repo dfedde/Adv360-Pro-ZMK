@@ -83,7 +83,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &tog 0  &tog 0  &trans  &sk LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &tog 4  &tog 4  &trans  &sk LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -93,7 +93,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &tog 0  &tog 6  &trans  &kp MINUS  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &tog 5  &tog 6  &trans  &kp MINUS  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -103,7 +103,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &tog 0  &trans  &kp UNDERSCORE  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &tog 6  &tog 6  &trans  &kp UNDERSCORE  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
