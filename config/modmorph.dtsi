@@ -1,0 +1,7 @@
+spacebk: spacebk {
+            compatible = "zmk,behavior-mod-morph";
+            label = "SPACEBK";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE>, <&kp BACKSPACE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
