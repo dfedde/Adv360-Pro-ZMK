@@ -45,11 +45,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 3                                                   &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &SPACEBK  &sl 4      &kp END       &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 3                                                                  &mo 3      &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                                   &none      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none          &sk LGUI     &sk LALT              &kp LGUI   &kp RCTRL  &none      &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                               &sk LEFT_CONTROL      &kp PG_UP                        &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BACKSPACE  &lt 4 SPACE  &kp LEFT_SHIFT        &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -85,11 +85,11 @@
 
         layer_Inverse {
             bindings = <
-&kp MINUS  &kp N0    &kp N9    &kp N8     &kp N7  &kp N6  &mo 3                                                     &tog 1    &kp N5  &kp N4     &kp N3    &kp N2    &kp N1     &kp EQUAL
-&kp BSLH   &kp P     &kp O     &kp I      &kp U   &kp Y   &none                                                     &none     &kp T   &kp R      &kp E     &kp W     &kp Q      &kp TAB
-&kp SQT    &kp SEMI  &kp L     &kp K      &kp J   &kp H   &none      &kp RCTRL  &kp LGUI       &kp LALT  &kp LCTRL  &none     &kp G   &kp F      &kp D     &kp S     &kp A      &kp ESC
-&kp RSHFT  &kp FSLH  &kp DOT   &kp COMMA  &kp M   &kp N                         &kp PG_UP      &kp HOME                       &kp B   &kp V      &kp C     &kp X     &kp Z      &kp LSHFT
-&mo 2      &kp RBKT  &kp LBKT  &kp DOWN   &kp UP          &kp SPACE  &kp ENTER  &kp PG_DN      &kp END   &kp DEL    &kp BSPC          &kp RIGHT  &kp LEFT  &kp CAPS  &kp GRAVE  &mo 2
+&kp MINUS  &kp N0    &kp N9    &kp N8     &kp N7  &kp N6  &mo 3                                                           &tog 1    &kp N5  &kp N4     &kp N3    &kp N2    &kp N1     &kp EQUAL
+&kp BSLH   &kp P     &kp O     &kp I      &kp U   &kp Y   &none                                                           &none     &kp T   &kp R      &kp E     &kp W     &kp Q      &kp TAB
+&kp SQT    &kp SEMI  &kp L     &kp K      &kp J   &kp H   &none      &sk RGUI   &sk RIGHT_ALT        &kp LALT  &kp LCTRL  &none     &kp G   &kp F      &kp D     &kp S     &kp A      &kp ESC
+&kp RSHFT  &kp FSLH  &kp DOT   &kp COMMA  &kp M   &kp N                         &kp RCTRL            &kp HOME                       &kp B   &kp V      &kp C     &kp X     &kp Z      &kp LSHFT
+&mo 2      &kp RBKT  &kp LBKT  &kp DOWN   &kp UP          &kp SPACE  &kp ENTER  &sk RIGHT_SHIFT      &kp END   &kp DEL    &kp BSPC          &kp RIGHT  &kp LEFT  &kp CAPS  &kp GRAVE  &mo 2
             >;
         };
     };
