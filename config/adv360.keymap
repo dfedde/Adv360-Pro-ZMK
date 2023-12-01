@@ -110,5 +110,15 @@
 &mo 2      &kp RBKT  &kp LBKT  &kp DOWN   &kp UP          &kp SPACE  &kp ENTER  &sk RIGHT_SHIFT      &kp END   &kp DEL    &kp BSPC          &kp RIGHT  &kp LEFT  &kp CAPS  &kp GRAVE  &mo 2
             >;
         };
+
+        gaming {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &kp SPACE  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
